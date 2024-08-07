@@ -26,12 +26,13 @@
 
         <nav class="navbar">
             <a href="Index.html">Portfolio</a>
-            <a href="#">Resume</a>
-            <a href="#">About </a>
+            <a href="#second">Resume</a>
+            <a href="#aboutto">About </a>
             <a href="#">Projects</a>
-            <a href="#">Education</a>
+            <a href="#btna">My Info</a>
+        
         </nav>
-            <a href="#contact-me"  class="contactme">Contact Me</a>
+            <a href="#contactform"  class="contactme">Contact Me</a>
     </header>
 
 
@@ -47,21 +48,18 @@
 
 
             <div class="btn-box">
-                <button class="btn-1">Hire Me</button>
+                <a href="#btna"><button class="btn-1">Hire Me</button></a>
                 <button class="btn-2">My work</button>
             </div>
-            
-
-            <div class="img-box">
-                <img src="2222.jpg" alt="" >
-            </div>
+           
+           <img src="img/gohan.png" alt="no image" style="height: 650px; width: 550px; margin-left: 90%; margin-top: -350px; border: 1px solid transparent;" >
 
         </div>
     </section>
    
     
 <!-- body content section 2 -->
-    <section class="about">
+    <section class="about" >
             <div class="about-content">
                 <h2 class="heading">About <span>Me</span></h2>
                 <h3>& My<span>Passion</span></h3>
@@ -70,7 +68,7 @@
                     project in my learning time and after i learned i created full dynamic websites and some of my work i shared in my Portfolio.
                 </p>
 
-                <a href="#" class="btn-2">My Projects</a>
+                <a href="#" class="btn-2" id="btna">My Projects</a>
             </div>`
     </section>
 
@@ -89,31 +87,139 @@
 
     </section>
 
+    <!-- about section for education and Experience -->
+        <section class="education" id="aboutto">
 
-<!-- footer content -->
-     <!-- <footer class="footer"> 
+            <div class="container">
+            <main class="row">
+                
+                <section class="col">
+              <header class="title">
+                <h2>Education</h2>
+              </header>
+              <div class="contents">
+              <div class="box">
+                <h4 style="color: orangered;">2019-2021</h4>
+                <h3>High school Studies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quos dignissimos accusantium perspiciatis, facere atque delectus culpa omnis nesciunt obcaec</p>
+              </div>
+
+              <div class="box">
+                <h4 style="color: orangered;">2021-2024</h4>
+                <h3>Bachelor's Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quos dignissimos accusantium perspiciatis, facere atque delectus culpa omnis nesciunt obcaec</p>
+              </div>
+              </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <main class="row">
+                <section class="col">
+              <header class="title">
+                <h2>Experience</h2>
+              </header>
+             
+              <div class="contents">
+              <div class="box">
+                <h4 style="color: orangered;">In 2024</h4>
+                <h3>Skilled in technologies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quos dignissimos accusantium perspiciatis, facere atque delectus culpa omnis nesciunt obcaec</p>
+              </div>
+
+              <div class="box">
+                <h4 style="color: orangered;">Currently Doing</h4>
+                <h3>Work Experience</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quos dignissimos accusantium perspiciatis, facere atque delectus culpa omnis nesciunt obcaeca</p>
+              </div>
+            </div>
+            </section>
+            </main>
+        </div>    
+        </section> 
+        
+        
+        <section class="resume"  id="second">
+            <div class="resume2">
+                <h1 class="heading">My <span id="other">Resume</span></h1>
+               
+
+                <p style="font-size: 25px;"> &raquo; This is my resume. My<span id="change"> Skills</span>&nbsp; my <span id="change2"> Education</span>&nbsp; my <span id="change3"> work</span> &nbsp;and &nbsp;my <span id="change4"> Experience</span>&nbsp; all are mentioned in this resume.</p>
+                
+
+                <a href="#" class="btn-x" id="btna">Resume</a>
+            </div>`
+    </section>
+
+   
+    <section class="form">
+
+        <div class="background" id="contactform">
+            <div class="container">
+              <div class="screen">
+                <div class="screen-header">
+                  <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
+                  </div>
+                  <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                  </div>
+                </div>
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT</span>
+                      <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +92 7016985003</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" value="Your Name">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                      </div>
+                      <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE">
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button">CANCEL</button>
+                        <button class="app-form-button">SEND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>      
+    </section>
+
+    <!-- footer content -->
+     <footer class="footer"> 
     <div class="social">
         <a target="_blank" href="https://www.instagram.com/ubeid_sadeki99"><i class='bx bxl-instagram' ></i></a>
         <a target="_blank" href="https://www.facebook.com/ubeid.sadeki.180"><i class='bx bxl-facebook-circle' ></i></a>
-        <a target="_blank" href="https://www.linkedin.com/Ubeid Sadeki"><i class='bx bxl-linkedin-square' ></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/ubeid-sadeki-93b568320/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BSDu1mM9DSMO0OVAIWL9bSQ%3D%3D"><i class='bx bxl-linkedin-square' ></i></a>
         <a target="_blank" href="https://www.github.com/Ubeid99"><i class='bx bxl-github' ></i></a>
     </div>
 
 
     <ul>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Experience</a></li>
+        <li><a href="#second">Resume</a></li>
+        <li><a href="#aboutto">About</a></li>
         <li><a href="#">Projects</a></li>
-        <li><a href="#">Education</a></li>
-    </ul> -->
+        <li><a href="#btna">My Info</a></li>
+    </ul> 
 
  <!-- knowledge content -->
-    <!-- <p class="copyright">30 / 7 / 2024 &copy;copyrighted by UbeidSadeki</p> -->
-    <!-- </footer>   -->
-
-        <section class="about2">
-           <h2>Hello</h2>
-        </section>
-       
-</body>
-</html>
+    <p class="copyright">30 / 7 / 2024 &copy;copyrighted by UbeidSadeki</p>
+    </footer>  
+  </body>
+  </html>
